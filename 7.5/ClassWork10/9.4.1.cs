@@ -1,12 +1,11 @@
 ﻿using System;
 
-// First interface for calculating perimeter
 public interface ICalculatePerimeter
 {
     double Calculate(double side1, double side2, double side3);
 }
 
-// Second interface for calculating area
+
 public interface ICalculateArea
 {
     double Calculate(double baseLength, double height);
